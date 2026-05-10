@@ -75,7 +75,8 @@ This Privacy Policy may be updated from time to time, for example to reflect new
 
 ## Contact
 
-If you have questions about this Privacy Policy, or if you would like to exercise any of the choices described above, please contact:
+If you have questions about this Privacy Policy, or if you would like to exercise any of the choices described above, please open an issue at:
 
-- Email: marc.melgosas@gmail.com
-- GitHub: https://github.com/MarcMelgosa/Pottr/issues
+https://github.com/MarcMelgosa/Pottr/issues
+
+If your request concerns information you have submitted privately (for example, deletion of feedback you previously sent), you may indicate so when opening the issue and the developer will follow up appropriately.
