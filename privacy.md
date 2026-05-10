@@ -2,85 +2,80 @@
 title: Privacy Policy
 ---
 
-# Privacy Policy
+# Privacy Policy for Pottr
 
-**Last updated: 2026-05-10**
+**Effective date: 2026-05-10**
 
-This policy explains how Pottr ("the app") handles your data. It is written in plain language because privacy should be readable.
+This Privacy Policy explains how the Pottr mobile application ("Pottr", "the app") handles information about you when you use it on iPhone or iPad.
 
-## Summary
+We have designed Pottr so that the information you create stays under your control. The application does not require an account, does not collect analytics, does not show advertising, and does not transmit your personal information to the developer or any third party except as expressly described below.
 
-Pottr stores your pottery projects, photos, sketches, and notes **on your device** and **in your private iCloud account**. The developer cannot read any of this data.
+## Information you create in the app
 
-The app does not contain advertising, analytics, crash reporters, or third-party SDKs.
+When you use Pottr, you create information such as project entries, firing records, decoration details, custom material entries, photos, videos, sketches, and your application preferences.
 
-## What data Pottr stores
+This information is stored on your device. If you are signed in to iCloud, the same information is also stored in your personal iCloud account so that it remains available across your Apple devices. Your iCloud data is associated with your Apple ID and protected by Apple. The developer of Pottr does not have access to your iCloud account or to the information stored within it.
 
-When you use Pottr, the following are stored on your device and synced through your private iCloud:
+## Information you choose to share with the developer
 
-- Projects (titles, notes, dimensions, weights, dates, stage history)
-- Firing logs (temperatures, methods, notes)
-- Decoration layers and the materials referenced
-- Custom material library entries (clays, glazes, slips, underglazes, oxides, stains)
-- Photos, videos, and sketches you add to projects
-- App preferences (units, language override, filter selections)
+Two features in Pottr can transmit information from your device to a service operated by the developer. Both are optional and require an action on your part.
 
-This data lives in:
+### Sending feedback
 
-- The local SwiftData store on your device, and
-- Your private iCloud Database (CloudKit container `iCloud.com.marcmelgosa.Pottr`), which is part of your personal Apple ID.
+When you submit feedback through the in-app form located in Settings, the following information is sent:
 
-**The developer has no access to your private iCloud Database.** Apple does not provide the developer with read access to user iCloud accounts.
+- The text of your feedback message
+- An optional reply email address, if you provide one
+- The application version, operating system version, device model, and device language
 
-## What data Pottr sends to the developer
+This information is used solely to respond to your feedback and to investigate issues you report. It is not used for marketing and is not shared with third parties. You may request deletion of feedback you have submitted by contacting the developer using the details at the end of this policy.
 
-Two optional features write data to a **public** CloudKit database that the developer reviews. Both are explicitly opt-in.
+### Leaving a tip
 
-### 1. Send Feedback (Settings → Send Feedback)
+Pottr offers an optional in-app tip that you may choose to leave to support development. Tip purchases are processed entirely by Apple under Apple's terms and privacy practices. The developer does not receive your payment information, billing details, or Apple ID.
 
-When you submit feedback, a record is written to the public CloudKit database containing:
+To display a community-support indicator inside the app, the total amount tipped by all users during the current calendar year is recorded as a single combined value. No information identifying any individual purchase, user, or amount is recorded by the developer.
 
-- The text of your feedback
-- An optional reply email (only if you choose to provide one)
-- App version, iOS version, device model, and locale (used to reproduce bugs)
+## Information not collected
 
-The developer reads these submissions via the CloudKit Dashboard to fix issues and improve the app. Submissions are not shared with third parties.
+Pottr does not collect, transmit, or store any of the following:
 
-### 2. Tip Jar (Settings → Support Pottr)
+- Advertising identifiers
+- Analytics or usage telemetry
+- Crash reports
+- Location data
+- Contacts, calendar entries, or reminders
+- Data from any third-party software development kits or services
 
-If you choose to leave a one-time tip:
+The app requests access to the camera and photo library only when you choose to add a photo or video to a project, and only after you grant the corresponding system permission.
 
-- The purchase is processed by **Apple**, not the developer. The developer never sees your payment information, billing address, or Apple ID.
-- The total amount tipped across all users in the current year is written to a public CloudKit record so the in-app yearly progress bar can display community support. **No individual purchase, user identifier, or amount is recorded against any user.** Only the running aggregate total.
-- Sandbox and Xcode-test purchases are excluded from this aggregate.
+## Your choices and how to delete your data
 
-## What data Pottr does NOT collect
+You retain full control over the information you create in Pottr.
 
-- No advertising identifiers
-- No analytics or telemetry
-- No crash reports
-- No location data
-- No contacts, calendars, or reminders
-- No third-party SDKs of any kind
+- To delete individual projects, photos, sketches, or material entries, remove them from within the app.
+- To delete all data stored on your device, uninstall the app from iOS.
+- To delete the data stored in your iCloud account, open the iOS Settings app, tap your name, then iCloud, then Manage Account Storage, then Pottr, and choose Delete Data. This permanently removes the app's data from your iCloud and from any device synchronizing through it.
 
-The app uses the camera and photo library only when you actively choose to add a photo or video to a project, and only with your explicit permission.
+To request deletion of feedback you previously submitted to the developer, contact the developer using the details below.
 
-## Data retention and deletion
+## Children's privacy
 
-- Your projects and materials are stored entirely on your device and in your iCloud account. To delete them, delete the relevant projects in the app, or delete the app and remove the iCloud container in iOS Settings → [your name] → iCloud → Manage Account Storage → Pottr.
-- Feedback submissions persist in the public CloudKit database until the developer manually deletes them. To request deletion of a feedback submission you sent, email the address below.
+Pottr is rated 4+ in the App Store. The app contains no objectionable content and is not directed at children under the age of 13. The developer does not knowingly collect personal information from children. If you believe a child has submitted personal information through the app's feedback feature, please contact the developer so that the submission can be removed.
 
-## Children
+## Security
 
-Pottr does not knowingly collect any data from children under 13. The app is rated 4+ and contains no objectionable content, but the developer is not the operator of any service that children directly interact with.
+Information stored on your device is protected by the operating system's security features, including device passcode and encryption. Information synchronized through iCloud is protected under Apple's security and privacy practices. Information you choose to send via the feedback feature is transmitted over a secure connection.
+
+No method of electronic storage or transmission is fully secure. While reasonable steps are taken to protect information, absolute security cannot be guaranteed.
 
 ## Changes to this policy
 
-If this policy changes materially, the date at the top will be updated. Continued use of the app after a change constitutes acceptance.
+This Privacy Policy may be updated from time to time, for example to reflect new features or changes in legal requirements. The effective date at the top of this document will be updated when changes are made. Continued use of the app after a change is published constitutes acceptance of the updated policy.
 
 ## Contact
 
-For privacy questions or data deletion requests:
+If you have questions about this Privacy Policy, or if you would like to exercise any of the choices described above, please contact:
 
 - Email: marc.melgosas@gmail.com
-- GitHub issues: https://github.com/MarcMelgosa/Pottr/issues
+- GitHub: https://github.com/MarcMelgosa/Pottr/issues
