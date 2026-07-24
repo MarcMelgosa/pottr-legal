@@ -1,0 +1,33 @@
+name: Question or suggestion
+description: Ask how something works, or suggest an idea for the app.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        The [support page](https://marcmelgosa.github.io/pottr-legal/support) covers the most
+        common questions — syncing, exporting, and deleting your data. If yours isn't there,
+        ask away.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What would you like to know, or suggest?
+      description: >-
+        For a suggestion, it helps to know what you're trying to do rather than how you think
+        it should work — that often leads somewhere better.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Which version of Pottr? (optional)
+      description: "Settings → About in the app."
+      placeholder: 1.0.0 (3)
+
+  - type: markdown
+    attributes:
+      value: >-
+        Pottr is made by one person alongside a day job, so replies may take a little while.
+        Every suggestion gets read.

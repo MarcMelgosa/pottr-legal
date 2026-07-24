@@ -1,0 +1,69 @@
+name: Something isn't working
+description: Report a problem with the app — a crash, something missing, or something behaving oddly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for taking the time. Fill in what you can — a partial report is far better than
+        none, so please don't worry about leaving boxes empty.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: In your own words. What did you expect, and what did you get instead?
+      placeholder: I tapped Save on a new project and it closed without saving anything.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: What were you doing just before?
+      description: >-
+        If you can, list the steps so it can be reproduced. If it only happened once and you're
+        not sure how, say that — it's still useful.
+      placeholder: |
+        1. Opened the Projects tab
+        2. Tapped +
+        3. Typed a title and added a photo
+        4. Tapped Save
+
+  - type: input
+    id: version
+    attributes:
+      label: Which version of Pottr?
+      description: "In the app: Settings → About. It looks like 1.0.0 (3)."
+      placeholder: 1.0.0 (3)
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Which device?
+      options:
+        - iPhone
+        - iPad
+        - Both
+
+  - type: input
+    id: language
+    attributes:
+      label: What language is the app in?
+      description: Only matters if the problem involves text or layout.
+      placeholder: English
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: >-
+        Screenshots help a lot — you can drag them straight into this box. Please check them for
+        anything private before posting, since this page is public.
+
+  - type: markdown
+    attributes:
+      value: >-
+        **A reminder about privacy:** anything you write here is public. Your pottery projects,
+        photos and notes are never uploaded anywhere by the app — please don't paste anything
+        personal here either.

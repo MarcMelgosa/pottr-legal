@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Send feedback from inside Pottr (usually easier)
+    url: https://marcmelgosa.github.io/pottr-legal/support
+    about: >-
+      Open Settings → Send Feedback in the app. It includes your app and iOS version
+      automatically, so there is less for you to fill in. Use GitHub here if you cannot
+      open the app, or if you would rather ask in public.

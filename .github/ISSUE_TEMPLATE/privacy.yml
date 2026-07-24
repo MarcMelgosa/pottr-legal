@@ -1,0 +1,47 @@
+name: Privacy or data request
+description: Ask about your data, or request deletion of feedback you sent.
+labels: ["privacy"]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        **Your projects, photos and notes are never sent to the developer.** They stay on your
+        device and in your own iCloud. To delete those, see
+        [the support page](https://marcmelgosa.github.io/pottr-legal/support) — no request is
+        needed, and nobody else can reach them.
+
+
+        This form is for the one thing that *is* sent: feedback you chose to submit from inside
+        the app.
+
+  - type: dropdown
+    id: request
+    attributes:
+      label: What would you like?
+      options:
+        - Delete feedback I sent from the app
+        - A copy of what was stored about me
+        - A question about the privacy policy
+        - Something else
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: Details
+      description: >-
+        Roughly when did you send the feedback, and what was it about? That's usually enough to
+        find it.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: >-
+        **Please don't post anything private here** — this page is public. If your request
+        involves something you'd rather not share, say so and a private route will be arranged.
+
+
+        See the [privacy policy](https://marcmelgosa.github.io/pottr-legal/privacy) for what is
+        collected and why.
