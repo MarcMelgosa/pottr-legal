@@ -8,16 +8,16 @@ Pottr is a pottery journal for iPhone and iPad, made and maintained by one perso
 
 ## Getting help
 
-**The quickest route is inside the app.** Open **Settings → Send Feedback**. That sends your
-message along with the app version, iOS version, device model and language, which is usually
-what's needed to work out what went wrong. You can add a reply address if you'd like an answer,
-and leaving it out is fine.
-
-**If you can't open the app**, or would rather ask in public, open an issue here:
+Open an issue on GitHub. In the app, **Settings → Send Feedback** takes you straight there; you
+can also go directly:
 
 [github.com/MarcMelgosa/pottr-legal/issues](https://github.com/MarcMelgosa/pottr-legal/issues)
 
-No account with Pottr is needed for either — the app has no accounts and no sign-in.
+Issues are public, so leave out anything private. For a bug, the form asks for your Pottr version
+(shown in **Settings → About Pottr**), your device and the app's language, which is usually what's
+needed to work out what went wrong.
+
+Pottr itself has no accounts and no sign-in. Opening an issue needs a free GitHub account.
 
 ## Common questions
 
@@ -44,5 +44,6 @@ the app's running costs.
 
 ## Privacy requests
 
-To ask about, or request deletion of, feedback you have sent, use either route above and say so
-in your message. See the [Privacy Policy](privacy.html) for what is collected and why.
+Feedback is a public GitHub issue, which you can edit or close yourself. To have an issue you
+opened deleted, or to ask about your data, use the **Privacy or data request** form on the issues
+page. See the [Privacy Policy](privacy.html) for what the app does and doesn't collect.
